@@ -2,7 +2,7 @@ version: "3.3"
 services:
   image:
     build: .
-    image: zobees/7daystodie
+    image: dtlandry/7daystodie
     tty: true
     stdin_open: true
     environment:
