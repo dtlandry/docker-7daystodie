@@ -7,7 +7,8 @@ RUN apt-get -y update && \
 
 ENV STEAMCMD_APP_ID="294420" \
     CONFIG_FILE=serverconfig.xml \
-    QUERY_PORT=26901
+    QUERY_PORT=26901 \
+    STEAMCMD_BETA=beta_experimental
 
 ADD 7dtd-* /usr/local/bin/
 RUN chmod +x /usr/local/bin/7dtd-*
